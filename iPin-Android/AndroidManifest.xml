@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="lyc.iping"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="16" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        <activity android:name="lyc.iping.Appstart" android:theme="@style/Anim_style2" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="lyc.iping.LoginActivity" android:label="@string/app_name" android:windowSoftInputMode="adjustResize|stateVisible" />       
+        <activity android:name="lyc.iping.RegisterActivity" android:label="@string/app_name" />
+        <activity android:name="lyc.iping.MainActivity" android:label="@string/app_name" />
+        <activity android:name="lyc.iping.SettingActivity" android:theme="@android:style/Theme.NoTitleBar" />
+        
+        <activity android:name=".InfoListActivity" android:theme="@style/Anim_style2" />
+        <activity android:name=".EditActivity" android:theme="@android:style/Theme.NoTitleBar" />
+        <activity android:name=".ReleasedActivity" android:theme="@android:style/Theme.NoTitleBar" />
+        
+    </application>
+
+</manifest>

@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:id="@+id/LoginTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+   <Button
+       android:id="@+id/LogoutButton"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignLeft="@+id/LoginTextView"
+       android:layout_centerVertical="true"
+       android:background="@drawable/btn_style_red"
+       android:gravity="center"
+       android:paddingLeft="10dp"
+       android:paddingRight="10dp"
+       android:text="注销"
+       android:textColor="#fff" />
+
+"
+</RelativeLayout>

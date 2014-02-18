@@ -1,0 +1,6 @@
+<resources>
+
+    <string name="app_name">i拼</string>
+    <string name="Server_IP">10.129.7.244</string>
+	<string name="Server_Port">19999</string>
+</resources>
